@@ -12,13 +12,13 @@ recognition.addEventListener('result', onSpeak)
 function onSpeak(e) {
   chute = e.results[0][0].transcript
   exibeChuteNaTela(chute)
-  
+  verificaSeChutePossuiValorValido(chute)
 }
 
 function exibeChuteNaTela(chute) {
+  //deveser inserido mais uma div dentro do elemento para exibir uma mensagem que passa pela validaca.js
   elementoChute.innerHTML = `
     <div>Você disse:</div>
     <span class="box">${chute}</span>
-    <div>O número secreto é maior <i class="fa-solid fa-arrow-up-long"></i></div>
   `
 }
