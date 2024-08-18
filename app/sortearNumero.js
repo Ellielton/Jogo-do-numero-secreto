@@ -1,5 +1,5 @@
 //Manipula os valores na função gerarAleatoria e na tela
-const menorVAlor = 0
+const menorValor = 0
 const maiorValor = 100
 const nuemroAleatorio = gerarNumeroAleatorio()
 
@@ -11,7 +11,7 @@ console.log(`O número secreto é ${nuemroAleatorio}`)
 
 //Captura e atualizar a faixa de valores na tela.
 const elementoMenorValor = document.getElementById('menor-valor')
-elementoMenorValor.innerHTML= menorVAlor;
+elementoMenorValor.innerHTML= menorValor;
 
 const elementoMaiorValor = document.getElementById('maior-valor')
 elementoMaiorValor.innerHTML= maiorValor;
