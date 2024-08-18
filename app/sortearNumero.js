@@ -1,6 +1,6 @@
 //Manipula os valores na função gerarAleatoria e na tela
 const menorValor = 0
-const maiorValor = 100
+const maiorValor = 1000
 const numeroSecreto = gerarNumeroAleatorio()
 
 function gerarNumeroAleatorio() {
