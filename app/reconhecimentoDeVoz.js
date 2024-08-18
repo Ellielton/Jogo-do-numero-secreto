@@ -22,3 +22,6 @@ function exibeChuteNaTela(chute) {
     <span class="box">${chute}</span>
   `
 }
+
+//Quando o reconhecimento acabar, ativa novamente automaticamenete
+recognition.addEventListener('end', () => recognition.start())
