@@ -1,5 +1,5 @@
 //Manipula os valores na função gerarAleatoria e na tela
-const menorVAlor = 5
+const menorVAlor = 0
 const maiorValor = 100
 const nuemroAleatorio = gerarNumeroAleatorio()
 
